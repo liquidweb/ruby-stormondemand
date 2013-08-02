@@ -14,7 +14,7 @@ Then, you should set your API user name and password:
     Storm::Account::Auth.username = 'username'
     Storm::Account::Auth.password = 'password'
 
-If you want to use API token instead of password for each request, then call this:
+If you want to use an API token instead of your password for each request, then call this:
 
     Storm::Account::Auth.token
 
@@ -31,6 +31,6 @@ For instance, you can create a new server like this:
     server.destroy
 
 ## Documents
-You can generate all documents using the yard gem by simply run:
+You can generate all documents using the yard gem by simply running:
 
     yard
