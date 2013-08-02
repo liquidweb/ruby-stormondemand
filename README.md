@@ -1,6 +1,6 @@
 A Ruby client library for the Storm On Demand Cloud API.
 
-# Installation
+## Installation
 Install the gem:
 
     gem install storm
@@ -9,7 +9,7 @@ Alternatively, you can add it to your project's Gemfile:
 
     gem 'storm'
 
-# Usage
+## Usage
 Require the Storm library:
 
     require 'Storm'
@@ -39,21 +39,21 @@ To destroy it:
 
     server.destroy
 
-# Contibuting
+## Contibuting
 
-## Building using RubyGems
+### Building using RubyGems
 
-### Build the gem:
+#### Build the gem:
 
     gem build storm.gemspec
 
-### Installing:
+#### Installing:
 
     gem install storm.gem-0.0.3.beta1
 
-## Using Bundler
+### Using Bundler
 
-### Developing storm alongside your project by adding it to your Gemfile
+#### Developing storm alongside your project by adding it to your Gemfile
 This is also known as using an unpacked gem. In your Gemfile add:
 
     gem 'storm', :path => './path/to/storm_src'
@@ -63,7 +63,7 @@ This is also known as using an unpacked gem. In your Gemfile add:
  - Bundler will use the dependencies declared in the gemspec and ensure they're installed.
  - Changes to the storm source will be reflected in your project without the build/install step.
 
-## Documentation
+### Documentation
 [YARD](http://yardoc.org/) is used to generate documentation.
 
 Generate the documentation:
@@ -78,15 +78,15 @@ To view the documentation open your browser and go to:
 
     http://localhost:8808
 
-# Changelog
+## Changelog
 
-#### 0.0.3
+##### 0.0.3
 
 - [x] Added runtime dependencies to gemspec.
 - [x] Added homepage and license to gemspec.
 - [x] Updated developer documentation.
 
-# Copyright and License
+## Copyright and License
 
 Copyright 2013 Liquid Web, Inc.
 
