@@ -3,11 +3,11 @@ A Ruby client library for the Storm On Demand Cloud API.
 ## Installation
 Install the gem:
 
-    gem install storm
+    gem install stormondemand
 
 Alternatively, you can add it to your project's Gemfile:
 
-    gem 'storm'
+    gem 'stormondemand'
 
 ## Usage
 Require the Storm library:
@@ -45,18 +45,18 @@ To destroy it:
 
 #### Build the gem:
 
-    gem build storm.gemspec
+    gem build stormondemand.gemspec
 
 #### Installing:
 
-    gem install storm.gem-0.0.3.beta1
+    gem install stormondemand.gem-0.0.3.beta1
 
 ### Using Bundler
 
 #### Developing storm alongside your project by adding it to your Gemfile
 This is also known as using an unpacked gem. In your Gemfile add:
 
-    gem 'storm', :path => './path/to/storm_src'
+    gem 'stormondemand', :path => './path/to/stormondemand_src'
 
  This has a few advantages over using RubyGems:
 
